@@ -1,0 +1,49 @@
+* {
+    color: #ffffff;
+}
+
+body {
+    background-color: #242428;
+}
+
+header, footer {
+    background: #17171a;
+    height: 10vh;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4vh;
+}
+
+main {
+    height: 80vh;
+    padding: 5vh 4vw;
+    margin: 0 6vw;
+    background: #1a1a1e;
+    box-shadow: 3px 5px 10px 2px rgba(23, 23, 26, 0.2);
+}
+
+h2 {
+    margin-top: 5vh;
+
+    color: #ffffff;
+    transition: 1s;
+}
+
+h2:hover {
+    color: #f43725;
+    transition: 1s;
+}
+
+main p {
+    margin-top: 3vh;
+    text-indent: 3vw;
+}
+
+li {
+    margin-top: 3vh;
+    margin-left: 4vw;
+}

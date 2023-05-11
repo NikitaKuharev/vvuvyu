@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../style/all.css">
+    <link rel="stylesheet" href="../style/navbar.css">
+    <link rel="stylesheet" href="../style/premiere.css">
+    <script>
+        window.addEventListener('load', function() {
+            setTimeout(()=> {
+                document.getElementById("form").style.display = "block";
+            }, 2000);
+        });
+
+        function func(){
+            alert("server error");
+            document.getElementById("form").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <div id="form" class="modal">
+        <div class="form">
+            <label for="email">Электронная почта: </label>
+            <input id="email" type="email">
+            <label for="pass">Пароль: </label>
+            <input id="pass" type="password">
+            <button onclick="func()">Войти</button>
+        </div>
+    </div>
+
+
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img  src="../img/logoWhite.svg" alt=""></a>
+        </div>
+        <nav>
+            <div class="opt"><a href="#">Премьеры</a></div>
+            <div class="opt"><a href="poster.xml">Афиша</a></div>
+            <div class="opt"><a href="aboutUs.html">О нас</a></div>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <section class="premiere1">
+            <div class="mask">
+                <h1>Барби</h1>
+                <div class="info">Барби выгоняют из Барбиленда, потому что она не соответствует его нормам красоты. Тогда она начинает новую жизнь в реальном мире, где обнаруживает, что совершенства можно достичь только благодаря внутренней гармонии.</div>
+            </div>
+        </section>
+
+
+        <section class="premiere2">
+            <div class="mask">
+                <h1>Джон Уик 4</h1>
+                <div class="info">Джон Уик находит способ одержать победу над Правлением Кланов. Однако, прежде чем он сможет заслужить свою свободу, ему предстоит сразиться с новым врагом и его могущественными союзниками.</div>
+            </div>
+        </section>
+
+        <section class="premiere3">
+            <div class="mask">
+                <h1>Одержимость</h1>
+                <div class="info">Юный барабанщик на тернистом пути к величию. Остросюжетная драма Дэмьена Шазелла, отмеченная тремя «Оскарами»</div>
+            </div>
+        </section>
+
+        <section class="premiere4">
+            <div class="mask">
+                <h1>Астрал. Семейный обряд</h1>
+                <div class="info">Старшеклассница Сими продит пасхальный уик-энд в доме своей тёти-диетолога и её родственников. Постепенно Сими узнаёт о странных традициях семьи и замечает пугающее поведение родных. Впереди её ждёт жуткий торжественный ритуал.</div>
+            </div>
+        </section>
+
+        <section class="premiere5">
+            <div class="mask">
+                <h1>Не дыши: Игра на выживание</h1>
+                <div class="info">Грабители проникают в дом пожилой пары, владеющей мастерской с золотыми украшениями. План с крахом проваливается, и бандиты сами оказываются жертвами.</div>
+            </div>
+        </section>
+
+        <section class="premiere6">
+            <div class="mask">
+                <h1>Сокровища партизанского леса</h1>
+                <div class="info">В начале немецкой оккупации мальчик и его старшая сестра остаются без взрослых. На руках у детей — музейная коллекция монет и орденов. Чтобы отыскать пропавшую маму и спасти сокровище, герои должны укрыться у партизан.</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Телефон: <a href="tel:номер телефона">911</a></p>
+        <p>Email: <a href="mailto:адрес электронной почты">alachagbar@gmail.com</a></p>
+        <p>Адрес: World Trade Center , New York City, U.S</p>
+        <p>Рабочие часы: Понедельник-Воскресенье: 10:00-22:00</p>
+    </footer>
+</body>
+</html>
